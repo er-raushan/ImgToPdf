@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image to PDF Converter</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/pdf-lib"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>Image to PDF Converter</h1>
+
+    <button id="themeBtn">
+      🌙 Theme
+    </button>
+  </div>
+
+  <div id="dropArea">
+    <p>📁 Drag & Drop Images Here</p>
+    <p>or</p>
+
+    <input
+      type="file"
+      id="imageInput"
+      accept="image/*"
+      multiple
+    >
+  </div>
+
+  <div id="preview"></div>
+
+  <div class="progress-box">
+    <div id="progressBar"></div>
+  </div>
+
+  <button id="convertBtn">
+    Convert to PDF
+  </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
