@@ -27,11 +27,13 @@ h1 {
 }
 
 #themeBtn {
-  padding: 12px 20px;
+  padding: 12px 15px;
   color: rgb(224, 18, 18);
   font-size: large;
   border-radius: 12px;
   font-weight: bolder;
+  background-color: white;
+
 }
 
 #dropArea {
